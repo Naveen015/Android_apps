@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Tour Guider</string>
+    <string name="title_activity_munnar_fragment">MunnarFragment</string>
+
+    <string name="category_Munnar">Munnar</string>
+    <string name="category_Mysuru">Mysuru</string>
+    <string name="category_Tranquebar">Tranquebar</string>
+    <string name="category_Trichy">Trichy</string>
+
+
+    <string name="Munnar_location1">Mattupetty</string>
+    <string name="Munnar_location2">Devikulam</string>
+    <string name="Munnar_location3">Pallivasal</string>
+    <string name="Munnar_location4">Vattavada</string>
+    <string name="Munnar_location5">Attukal</string>
+    <string name="Munnar_location6">Nyamakad</string>
+    <string name="Munnar_location7">Meesapulimala</string>
+
+    <string name="Munnar_desc1">Diary Farm</string>
+    <string name="Munnar_desc2">Hill station</string>
+    <string name="Munnar_desc3">Hydro electric Project</string>
+    <string name="Munnar_desc4">Tea plantations</string>
+    <string name="Munnar_desc5">Waterfalls</string>
+    <string name="Munnar_desc6">Waterfalls</string>
+    <string name="Munnar_desc7">Second highest peak</string>
+
+    <string name="Mysuru_location1">Mysore Palace</string>
+    <string name="Mysuru_location2">Somanathapura</string>
+    <string name="Mysuru_location3">Brindavan gardens</string>
+    <string name="Mysuru_location4">GRS fantasy park</string>
+    <string name="Mysuru_location5">St. Philomena\'s</string>
+    <string name="Mysuru_location6">City Shopping</string>
+    <string name="Mysuru_location7">Talakadu</string>
+    <string name="Mysuru_location8">Karanji lake</string>
+
+    <string name="Mysuru_desc1">Indo-Sarcenic architecture</string>
+    <string name="Mysuru_desc2">Stone carvings</string>
+    <string name="Mysuru_desc3">Fountain lights</string>
+    <string name="Mysuru_desc4">Amusement park</string>
+    <string name="Mysuru_desc5">Second tallest church</string>
+    <string name="Mysuru_desc6">Mysore silk artifacts</string>
+    <string name="Mysuru_desc7">Banks of river Cauvery</string>
+    <string name="Mysuru_desc8">Fountain lake</string>
+
+    <string name="Tranquebar_location1">Fort Dansborg</string>
+    <string name="Tranquebar_location2">The town gate</string>
+    <string name="Tranquebar_location3">The Zion church</string>
+    <string name="Tranquebar_location4">Old Danish cemetery</string>
+    <string name="Tranquebar_location5">The Zieganbalg museum complex</string>
+    <string name="Tranquebar_location6">The Masilamani Nathar temple</string>
+    <string name="Tranquebar_location7">The new Jerusalem Church</string>
+
+    <string name="Tranquebar_desc1">Danish style</string>
+    <string name="Tranquebar_desc2">Main street entry</string>
+    <string name="Tranquebar_desc3">Ancient Worship</string>
+    <string name="Tranquebar_desc4">Beautiful carved quotes</string>
+    <string name="Tranquebar_desc5">Interesting articles</string>
+    <string name="Tranquebar_desc6">Architecture</string>
+    <string name="Tranquebar_desc7">Tombs</string>
+
+    <string name="Trichy_locations1">Malai kovil</string>
+    <string name="Trichy_locations2">Viralimalai Temple</string>
+    <string name="Trichy_locations3">The Rock Fort Temple</string>
+    <string name="Trichy_locations4">Kudiyanmalai Shikanathar Temple</string>
+    <string name="Trichy_locations5">Agaya Gangai</string>
+    <string name="Trichy_locations6">Kolli Malai</string>
+    <string name="Trichy_locations7">Thalamalai Temple</string>
+
+    <string name="Trichy_desc1">Lord Shiva temple</string>
+    <string name="Trichy_desc2">Murugan temple</string>
+    <string name="Trichy_desc3">Vinayakar temple</string>
+    <string name="Trichy_desc4">Rock-cut shrine</string>
+    <string name="Trichy_desc5">Falls</string>
+    <string name="Trichy_desc6">Hills</string>
+    <string name="Trichy_desc7">Perumal temple</string>
+</resources>

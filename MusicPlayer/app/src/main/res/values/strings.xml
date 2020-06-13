@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="category_english">Engish Songs</string>
+    <string name="category_hindi">Hindi Songs</string>
+    <string name="category_tamil">Tamil Songs</string>
+</resources>
+

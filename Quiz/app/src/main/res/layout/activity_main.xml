@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Quiz"
+            android:textColor="#9C27B0"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_below="@id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Name"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            android:id="@+id/ques1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Name"
+            android:text="Q.1 Which of the following is used in pencils?"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/opt1"
+            android:layout_below="@id/ques1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/opt1A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Silicon"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt1B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Graphite"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Charcoal"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt1D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Phosphorous"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques2"
+            android:layout_below="@id/opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.2 Which is(are) the capital(s) of Jammu and Kashmir?"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/opt2A"
+            android:layout_below="@id/ques2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="8dp"
+            android:text="Srinagar"
+            android:onClick="onCheckBoxClicked"/>
+
+        <CheckBox
+            android:id="@+id/opt2B"
+            android:layout_below="@id/opt2A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="8dp"
+            android:text="Jammu"
+            android:onClick="onCheckBoxClicked"/>
+
+        <CheckBox
+            android:id="@+id/opt2C"
+            android:layout_below="@id/opt2B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="8dp"
+            android:text="Kargil"
+            android:onClick="onCheckBoxClicked"/>
+
+        <CheckBox
+            android:id="@+id/opt2D"
+            android:layout_below="@id/opt2C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="8dp"
+            android:text="Chandigarh"
+            android:onClick="onCheckBoxClicked"/>
+
+        <TextView
+            android:id="@+id/ques3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opt2D"
+            android:text="Q.3 Which among the following is a positively charged particle emitted by a radioactive element?"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/opt3"
+            android:layout_below="@id/ques3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/opt3A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Alpha Ray"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt3B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Cathode Ray"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt3C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Gamma Ray"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt3D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Beta Ray"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opt3"
+            android:text="Q.4 'OS' computer abbreviation usually means?"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/opt4"
+            android:layout_below="@id/ques4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/opt4A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Order of Significance"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt4B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Open Software"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt4C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Optical Sensor"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt4D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Operating System"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/opt4"
+            android:text="Q.5 Which is the longest river on the earth?"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/opt5"
+            android:layout_below="@id/ques5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/opt5A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Amazon"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt5B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Ganga"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Nile"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/opt5D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="Colorado"
+                android:layout_marginTop="16dp"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_below="@id/opt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Submit"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_custom"
+            android:onClick="submit"/>
+
+    </RelativeLayout>
+
+</ScrollView>

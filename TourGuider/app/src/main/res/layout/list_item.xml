@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:background="@color/tan_background">
+
+    <LinearLayout
+        android:id="@+id/Location_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Location_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            tools:text="Name"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/Location_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="Address"
+            android:textStyle="italic"
+            android:paddingLeft="16dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp" />
+
+</RelativeLayout>

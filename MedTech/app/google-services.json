@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893410459564",
+    "firebase_url": "https://medtech-665f3.firebaseio.com",
+    "project_id": "medtech-665f3",
+    "storage_bucket": "medtech-665f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893410459564:android:20c96172c7532066",
+        "android_client_info": {
+          "package_name": "com.example.naveen.medtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893410459564-9j3a59jrs8rv7a511qe1uthqpb40p540.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naveen.medtech",
+            "certificate_hash": "e57467d33bcebd97d107a311f065626a9c82a0a8"
+          }
+        },
+        {
+          "client_id": "893410459564-rvpsld30vutl2ojvhbfo854t27tnrvde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsXDR7-oymgrSM2_8yu_35PlONWgm18jk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893410459564-rvpsld30vutl2ojvhbfo854t27tnrvde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

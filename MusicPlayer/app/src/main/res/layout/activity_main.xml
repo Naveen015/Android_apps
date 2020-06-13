@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/english"
+        style="@style/CategoryStyle"
+        android:background="@color/category_english"
+        android:text="@string/category_english"
+        />
+
+    <TextView
+        android:id="@+id/hindi"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hindi"
+        android:text="@string/category_hindi" />
+
+    <TextView
+        android:id="@+id/tamil"
+        style="@style/CategoryStyle"
+        android:background="@color/category_tamil"
+        android:text="@string/category_tamil" />
+
+</LinearLayout>

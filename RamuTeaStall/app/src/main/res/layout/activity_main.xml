@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B71C1C"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:id="@+id/menu"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:paddingBottom="4dp"
+      android:src="@drawable/menu"/>
+    <TextView
+        android:id="@+id/ccd"
+        android:layout_toRightOf="@id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cafe Coffee Day"
+        android:padding="8dp"
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:textColor="#ffff"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_below="@id/ccd"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cappuccino"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="2dp"/>
+    <ImageView
+        android:id="@+id/tabs"
+        android:layout_below="@id/coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tabs"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_below="@id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="Unique roasting style flavored coffee..."/>
+    <ImageView
+        android:id="@+id/add"
+        android:layout_below="@id/desc"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:src="@drawable/address"
+        android:layout_margin="3dp" />
+    <TextView
+        android:layout_toRightOf="@id/add"
+        android:layout_below="@id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IIT Madras, Guindy, Chennai-36."
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:layout_margin="6dp"/>
+    <ImageView
+        android:id="@+id/contact"
+        android:layout_below="@id/add"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:src="@drawable/contact"
+        android:layout_margin="3dp"/>
+    <TextView
+        android:layout_toRightOf="@id/contact"
+        android:layout_below="@id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08300227027"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:layout_margin="6dp"/>
+    <TextView
+        android:layout_below="@id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10am to 10pm"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:padding="8dp"
+        android:layout_margin="6dp"/>
+</RelativeLayout>

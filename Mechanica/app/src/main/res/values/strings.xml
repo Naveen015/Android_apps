@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mechanica</string>
+    <string name="category_Events">Events</string>
+    <string name="category_Workshop">Workshop</string>
+</resources>

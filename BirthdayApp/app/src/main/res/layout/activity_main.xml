@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:scaleType="center"
+        android:src="@drawable/frozen2" />
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:text="Happy Birthday!" />
+
+    <TextView
+        android:id="@+id/wish2"
+        android:layout_below="@id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#F50057"
+        android:text="May your birthday be"/>
+    <TextView
+        android:id="@+id/wish3"
+        android:layout_below="@id/wish2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#F50057"
+        android:text="as special as"/>
+    <TextView
+        android:id="@+id/wish4"
+        android:layout_below="@id/wish3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#F50057"
+        android:text="you are my love!"/>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/wish4"
+        android:paddingTop="30dp"
+        android:paddingLeft="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ammu"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
